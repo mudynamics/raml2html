@@ -1,6 +1,7 @@
 var raml2obj = require('raml2obj');
 var pjson = require('./package.json');
 var Q = require('q');
+require("setimmediate");
 
 /**
  * Render the source RAML object using the config's processOutput function
